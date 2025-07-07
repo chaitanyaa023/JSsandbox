@@ -19,7 +19,7 @@ console.log("Is address an object?", person.address instanceof Object);
 console.log("Is greet a function?", typeof person.greet === "function");
 console.log("Keys of person object:", Object.keys(person));
 console.log("Values of person object:", Object.values(person));
-console.log("Entries of person object:", Object.entries(person));
+console.log("Entries of person object:", Object.entries(person))
 console.log("JSON representation of person:", JSON.stringify(person, null, 2));
 console.log("Accessing properties using bracket notation:");
 console.log("Name:", person["name"]);
