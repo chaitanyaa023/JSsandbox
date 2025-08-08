@@ -23,5 +23,5 @@ console.log("Entries of person object:", Object.entries(person))
 console.log("JSON representation of person:", JSON.stringify(person, null, 2));
 console.log("Accessing properties using bracket notation:");
 console.log("Name:", person["name"]);
-console.log("Age:", person["age"]);;
+console.log("Age:", person["age"]);
 console.log("Is Student:", person["isStudent"]);
